@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Outfit', sans-serif;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: hsl(217, 54%, 11%);
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: hsl(216, 50%, 16%);
+    box-shadow: 2px 2px 10px 0 #000;
+    border-radius: 20px;
+}
+
+.data-container{
+    max-width: 350px;
+    padding: 28px;
+}
+
+.text h1{
+    font-size: 24px;
+    color: hsl(0, 0%, 100%);
+    margin-top: 13px;
+    margin-bottom: 16px;
+    cursor: pointer;
+}
+
+.text h1:hover{
+    color:hsl(178, 100%, 50%);
+}
+
+.text p{
+    margin-bottom: 17px;
+    line-height: 25px;
+}
+
+hr{
+    border-color: hsl(215, 51%, 70%);
+    font-size: 8px;
+    height: 1px;
+    margin-bottom: 10px;
+}
+
+.components .ethereum{
+    color: hsl(178, 100%, 50%);
+}
+
+.components .clock{
+    color: hsl(215, 51%, 70%);
+
+}
+
+.components{
+    display: flex;
+    justify-content: space-between;
+}
+
+.text .main-p{
+    color: hsl(215, 51%, 70%);
+    font-size: 18px;
+}
+
+.by{
+    display: flex;
+}
+
+.by p{
+    color: hsl(215, 51%, 70%)
+}
+
+.by span{
+    color: #fff;
+    cursor: pointer;
+}
+
+.by span:hover{
+    color: hsl(178, 100%, 50%);
+}
+
+.by img{
+    width: 18px;
+    border: 1px solid #fff;
+    border-radius: 20px;
+}
+
+.img img{
+    height: auto;
+    width: 290px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.img img:hover{
+    filter: invert(88%) sepia(90%) saturate(688%) hue-rotate(106deg) brightness(100%) contrast(80%);
+}
